@@ -3,7 +3,7 @@ a=0
 b=0
 turtle.bgcolor("black")
 turtle.speed(0)
-turtle.pencolor("blue")
+turtle.pencolor("green")
 turtle.penup()
 turtle.goto(0,200)
 turtle.pendown()
