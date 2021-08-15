@@ -7,7 +7,7 @@ screen = turtle.Screen()
 
 # Defining a turtle Instance
 t = turtle.Turtle()
-speed('fastest')
+t.speed(50)
 
 
 t.penup()
@@ -103,7 +103,6 @@ for i in range(24):
 	t.forward(60)
 	t.backward(60)
 	t.left(15)
-goto(-300, 0)
 t.penup()
 goto(-100, -350)
 turtle.pencolor("black")
