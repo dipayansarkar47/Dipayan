@@ -1,7 +1,7 @@
 import pywhatkit
 pywhatkit.sendwhatmsg(
-        "+918116864450",
-        "Save This Post",
+        "+91123456789",
+        "Try this now",
         15,48)
 
 
