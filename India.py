@@ -14,7 +14,7 @@ t.penup()
 t.goto(-300, 400)
 t.pendown()
 t.color("brown")
-t.begin_fill()
+t.pensize(4)
 t.forward(5)
 t.right(90)
 t.forward(1000)
@@ -104,14 +104,15 @@ for i in range(24):
 	t.backward(60)
 	t.left(15)
 t.penup()
-goto(-100, -350)
 turtle.pencolor("black")
+t.pendown()
+
+t.penup()
+turtle.pencolor("white")
 t.pendown()
 turtle.write(
     "HAPPY INDEPENDENCE DAY",
-    font=("Comic Sans", 24, "bold"))
-t.penup()
-
+    font=("Sans", 18, "bold"))
 	
 #to hold the
 #output window
